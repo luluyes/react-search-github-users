@@ -1,0 +1,28 @@
+.list-container {
+  margin: auto;
+  width: 85%;
+  margin-top: 20px;
+
+  .list-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 160px;
+
+    .list-item {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid gainsboro;
+
+      .list-item-image {
+        height: 67%;
+        width: 70%;
+        margin: auto;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
